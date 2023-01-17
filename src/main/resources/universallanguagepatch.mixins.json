@@ -1,0 +1,16 @@
+{
+  "required": false,
+  "minVersion": "0.8",
+  "package": "xyz.kerite.mc.universallanguagepatch.mixin",
+  "compatibilityLevel": "JAVA_11",
+  "refmap": "universallanguagepatch.refmap.json",
+  "mixins": [
+    "StringTextComponentMixin",
+    "TranslationTextComponentMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

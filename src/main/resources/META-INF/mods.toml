@@ -1,0 +1,26 @@
+modLoader = "javafml" #mandatory
+loaderVersion = "[36,)" #mandatory
+license = "LGPLv3"
+#issueTrackerURL="http://my.issue.tracker/" #optional
+[[mods]]
+modId = "universallanguagepatch" #mandatory
+version = "${file.jarVersion}" #mandatory
+displayName = "Universal Language Patch"
+#updateJSONURL="http://myurl.me/" #optional
+#displayURL="http://example.com/" #optional
+#logoFile="universallanguagepatch.png" #optional
+#credits="" #optional
+authors = "Keriteal" #optional
+description = '''Patch text in Minecraft'''
+[[dependencies.universallanguagepatch]] #optional
+modId = "forge" #mandatory
+mandatory = true #mandatory
+versionRange = "[36,)" #mandatory
+ordering = "NONE"
+side = "BOTH"
+[[dependencies.universallanguagepatch]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.5,1.17)"
+ordering = "NONE"
+side = "BOTH"

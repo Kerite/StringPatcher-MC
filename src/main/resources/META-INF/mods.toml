@@ -1,13 +1,13 @@
 modLoader = "javafml" #mandatory
 loaderVersion = "[36,)" #mandatory
 license = "LGPLv3"
-#issueTrackerURL="http://my.issue.tracker/" #optional
+issueTrackerURL = "https://github.com/Kerite/mc-UniversalLanguagePatch/issues" #optional
 [[mods]]
 modId = "universallanguagepatch" #mandatory
 version = "${file.jarVersion}" #mandatory
 displayName = "Universal Language Patch"
 #updateJSONURL="http://myurl.me/" #optional
-#displayURL="http://example.com/" #optional
+displayURL = "https://github.com/Kerite/mc-UniversalLanguagePatch" #optional
 #logoFile="universallanguagepatch.png" #optional
 #credits="" #optional
 authors = "Keriteal" #optional
